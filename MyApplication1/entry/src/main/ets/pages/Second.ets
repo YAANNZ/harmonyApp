@@ -4,7 +4,7 @@ import { BusinessError } from '@kit.BasicServicesKit';
 @Entry
 @Component
 struct Index {
-  @State message: string = 'Hello World';
+  @State message: string = 'Second page';
 
   build() {
     RelativeContainer() {
@@ -32,7 +32,7 @@ struct Index {
           //点击事件
           .onClick(() => {
             console.info('Back Event')
-            router.pushUrl({url: 'page/index'}).then(() => {
+            router.pushUrl({url: 'pages/Index'}).then(() => {
               console.info('Back Event Success!!!')
             }).catch((err:BusinessError) => {
               console.error(`fail jump to Index. code is ${err.code}, message is ${err.message}`)

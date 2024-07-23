@@ -1,0 +1,154 @@
+[2024-07-23T21:37:12.024] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2024-07-23T21:37:12.221] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: false,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2024-07-23T21:37:12.227] [DEBUG] debug-file - hvigorfile, resolving /Users/zhuyn/Documents/DevEcoStudioProjects/harmonyApps/MyApplication2/Login/hvigorfile.ts
+[2024-07-23T21:37:12.918] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2024-07-23T21:37:12.922] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native
+[2024-07-23T21:37:12.923] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2024-07-23T21:37:12.814] [DEBUG] debug-file - hvigorfile, require result:  { appTasks: [Getter] }
+[2024-07-23T21:37:12.927] [DEBUG] debug-file - Sdk init in 7 ms 
+[2024-07-23T21:37:12.919] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true
+} in this build.
+[2024-07-23T21:37:12.934] [DEBUG] debug-file - Project task initialization takes 7 ms 
+[2024-07-23T21:37:12.936] [DEBUG] debug-file - hvigorfile, resolving /Users/zhuyn/Documents/DevEcoStudioProjects/harmonyApps/MyApplication2/Login/entry/hvigorfile.ts
+[2024-07-23T21:37:12.943] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2024-07-23T21:37:12.946] [DEBUG] debug-file - Module entry task initialization takes 2 ms 
+[2024-07-23T21:37:12.947] [DEBUG] debug-file - project has submodules:entry
+[2024-07-23T21:37:12.953] [DEBUG] debug-file - Executing task :entry:clean
+[2024-07-23T21:37:12.954] [DEBUG] debug-file - entry : clean cost memory 0.21863555908203125
+[2024-07-23T21:37:12.024] [DEBUG] debug-file - env: hvigor-config.json5 content = { modelVersion: '5.0.0', dependencies: {} }
+[2024-07-23T21:37:12.222] [DEBUG] debug-file - Since current hvigor version 5.2.3 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2024-07-23T21:37:12.965] [DEBUG] debug-file - Current worker pool is stopped or closed.
+[2024-07-23T21:37:12.918] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2024-07-23T21:37:12.814] [DEBUG] debug-file - hvigorfile, binding system plugins { appTasks: [Getter] }
+[2024-07-23T21:37:12.920] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2024-07-23T21:37:12.934] [DEBUG] debug-file - hvigorfile, resolve finished /Users/zhuyn/Documents/DevEcoStudioProjects/harmonyApps/MyApplication2/Login/hvigorfile.ts
+[2024-07-23T21:37:12.939] [DEBUG] debug-file - hvigorfile, require result:  { hapTasks: [Getter] }
+[2024-07-23T21:37:12.943] [DEBUG] debug-file - Target 'default' config: {}
+[2024-07-23T21:37:12.946] [DEBUG] debug-file - hvigorfile, resolve finished /Users/zhuyn/Documents/DevEcoStudioProjects/harmonyApps/MyApplication2/Login/entry/hvigorfile.ts
+[2024-07-23T21:37:12.947] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2024-07-23T21:37:12.953] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2024-07-23T21:37:12.954] [DEBUG] debug-file - runTaskFromQueue task cost before running: 738 ms 
+[2024-07-23T21:37:12.025] [DEBUG] debug-file - env: daemon=false
+[2024-07-23T21:37:12.222] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2024-07-23T21:37:12.969] [DEBUG] debug-file - Current worker pool is terminated.
+[2024-07-23T21:37:12.918] [DEBUG] debug-file - Product 'default' build option: {}
+[2024-07-23T21:37:12.939] [DEBUG] debug-file - hvigorfile, binding system plugins { hapTasks: [Getter] }
+[2024-07-23T21:37:12.944] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2024-07-23T21:37:12.948] [DEBUG] debug-file - load to the disk finished
+[2024-07-23T21:37:12.955] [INFO] debug-file - Finished :entry:clean... after 2 ms 
+[2024-07-23T21:37:12.025] [DEBUG] debug-file - no-daemon, use the parent process.execArgv --max-old-space-size=8192,--expose-gc
+[2024-07-23T21:37:12.918] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2024-07-23T21:37:12.944] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "externalNativeOptions": {
+    "path": "./src/main/cpp/CMakeLists.txt",
+    "arguments": "",
+    "cppFlags": ""
+  }
+}
+[2024-07-23T21:37:12.949] [DEBUG] debug-file - Module Login Collected Dependency: 
+[2024-07-23T21:37:12.955] [DEBUG] debug-file - Executing task ::clean
+[2024-07-23T21:37:12.944] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "externalNativeOptions": {
+    "path": "./src/main/cpp/CMakeLists.txt",
+    "arguments": "",
+    "cppFlags": ""
+  }
+}
+[2024-07-23T21:37:12.949] [DEBUG] debug-file - Module Login's total dependency: 0
+[2024-07-23T21:37:12.955] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2024-07-23T21:37:12.944] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2024-07-23T21:37:12.949] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2024-07-23T21:37:12.955] [DEBUG] debug-file - Login : clean cost memory 0.024688720703125
+[2024-07-23T21:37:12.944] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "externalNativeOptions": {
+    "path": "./src/main/cpp/CMakeLists.txt",
+    "arguments": "",
+    "cppFlags": ""
+  }
+} in this build.
+[2024-07-23T21:37:12.949] [DEBUG] debug-file - Module entry's total dependency: 0
+[2024-07-23T21:37:12.955] [DEBUG] debug-file - runTaskFromQueue task cost before running: 739 ms 
+[2024-07-23T21:37:12.951] [DEBUG] debug-file - Configuration phase cost:728 ms 
+[2024-07-23T21:37:12.955] [INFO] debug-file - Finished ::clean... after 1 ms 
+[2024-07-23T21:37:12.952] [DEBUG] debug-file - Configuration task cost before running: 736 ms 
+[2024-07-23T21:37:12.955] [DEBUG] debug-file - Executing task :entry:init
+[2024-07-23T21:37:12.955] [DEBUG] debug-file - entry : init cost memory 0.009796142578125
+[2024-07-23T21:37:12.955] [DEBUG] debug-file - runTaskFromQueue task cost before running: 739 ms 
+[2024-07-23T21:37:12.955] [INFO] debug-file - Finished :entry:init... after 1 ms 
+[2024-07-23T21:37:12.955] [DEBUG] debug-file - Executing task ::init
+[2024-07-23T21:37:12.955] [DEBUG] debug-file - Login : init cost memory 0.0084991455078125
+[2024-07-23T21:37:12.956] [DEBUG] debug-file - runTaskFromQueue task cost before running: 739 ms 
+[2024-07-23T21:37:12.956] [INFO] debug-file - Finished ::init... after 1 ms 
+[2024-07-23T21:37:12.957] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "externalNativeOptions": {
+    "path": "./src/main/cpp/CMakeLists.txt",
+    "arguments": "",
+    "cppFlags": ""
+  }
+} in this build.
+[2024-07-23T21:37:12.958] [DEBUG] debug-file - Module 'entry' target 'ohosTest' using build option: {
+  "debuggable": true,
+  "externalNativeOptions": {
+    "path": "./src/main/cpp/CMakeLists.txt",
+    "arguments": "",
+    "cppFlags": ""
+  }
+} in this build.
+[2024-07-23T21:37:12.959] [DEBUG] debug-file - hvigor start cli arguments:{
+  prop: [ 'product=default' ],
+  sync: true,
+  parallel: true,
+  incremental: true,
+  daemon: false,
+  _: [ '--analyze=normal' ]
+}
+[2024-07-23T21:37:12.962] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2024-07-23T21:37:12.963] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2024-07-23T21:37:13.350] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2024-07-23T21:37:13.366] [DEBUG] debug-file - env: daemon=true
+[2024-07-23T21:37:13.351] [DEBUG] debug-file - env: hvigor-config.json5 content = { modelVersion: '5.0.0', dependencies: {} }
+[2024-07-23T21:37:13.579] [DEBUG] debug-file - java daemon tryConnect failed Error: connect ECONNREFUSED ::1:45050
+[2024-07-23T21:37:13.583] [DEBUG] debug-file - hvigor start cli arguments:{
+  prop: [ 'module=entry', 'product=default' ],
+  mode: 'module',
+  parallel: true,
+  incremental: true,
+  daemon: true,
+  _: [ 'compileNative', '--analyze=normal' ]
+}
+[2024-07-23T21:37:13.581] [DEBUG] debug-file - java daemon started at port 45050 pid 47308
+[2024-07-23T21:37:13.594] [DEBUG] debug-file - session manager: set active socket. socketId=ZlGPFLFJx_scCfUUAAAB
+[2024-07-23T21:37:13.864] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2024-07-23T21:37:13.865] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2024-07-23T21:37:13.870] [DEBUG] debug-file - hvigorfile, resolving /Users/zhuyn/Documents/DevEcoStudioProjects/harmonyApps/MyApplication2/Login/hvigorfile.ts

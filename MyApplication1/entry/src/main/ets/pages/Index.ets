@@ -1,5 +1,6 @@
 import { router } from '@kit.ArkUI';
 import { BusinessError } from '@kit.BasicServicesKit';
+import { text } from '@kit.ArkGraphics2D';
 
 @Entry
 @Component
@@ -11,13 +12,7 @@ struct Index {
       Row() {
         Column() {
           Text(this.message)
-            .id('HelloWorld')
-            .fontSize(50)
-            .fontWeight(FontWeight.Bold)
-            .alignRules({
-              // center: { anchor: '__container__', align: VerticalAlign.Center },
-              // middle: { anchor: '__container__', align: HorizontalAlign.Center }
-            })
+            .textInit()
           Button() {
             Text('Next')
               .fontSize(30)
@@ -32,7 +27,7 @@ struct Index {
           //点击事件
           .onClick(() => {
             console.info('Next Event')
-            router.pushUrl({url: 'page/second'}).then(() => {
+            router.pushUrl({url: 'pages/Second'}).then(() => {
               console.info(`click 'Next' Event Success!!!`)
             }).catch((err:BusinessError) => {
               console.error(`fail jump to next. code is ${err.code}, message is ${err.message}`)
@@ -47,3 +42,22 @@ struct Index {
     .width('100%')
   }
 }
+
+
+
+@Extend(Text)
+function textInit() {
+  .id('HelloWorld')
+  .fontSize(50)
+  .fontWeight(FontWeight.Bold)
+  .alignRules({
+    // center: { anchor: '__container__', align: VerticalAlign.Center },
+    // middle: { anchor: '__container__', align: HorizontalAlign.Center }
+  })
+}
+
+class Foo {
+  static bar() {}
+}
+
+Foo.bar();

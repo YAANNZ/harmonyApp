@@ -1,0 +1,30 @@
+{
+  "rules": {
+    "@hw-stylistic/file-naming-convention": [
+      // 告警级别：枚举类型，支持配置为error，warn，off
+      "error",
+      {
+        // selector属性可选，支持配置为code或者resources
+        // code表示检查代码文件的命名风格
+        // resources表示检查资源文件的命名风格
+        "selector": "code"
+      }
+    ],
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        // selector属性必选，配置要检查的语法，这里配置的class表示检查自定义组件名
+        "selector": "class",
+        // format属性必选，配置期望的命名风格，支持枚举值，这里配置的PascalCase表示大驼峰风格
+        "format": ["PascalCase"],
+        // custom属性可选，配置用户自定义的命名风格
+        "custom": {
+          // regex属性必选，配置具体的正则
+          "regex": "^[a-zA-Z]+$",
+          // match属性必选，配置为true表示正则未命中时报错；配置为false表示正则命中时报错
+          "match": true
+        }
+      }
+    ],
+  },
+}
