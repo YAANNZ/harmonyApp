@@ -61,3 +61,9 @@ class Foo {
 }
 
 Foo.bar();
+
+class Call<Element> {
+  public push(e: Element): void {
+
+  }
+}

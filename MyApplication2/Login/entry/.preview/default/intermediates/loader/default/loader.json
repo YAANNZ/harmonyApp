@@ -1,0 +1,17 @@
+{
+  "modulePathMap": {
+    "entry": "/Users/zhuyn/Documents/DevEcoStudioProjects/harmonyApps/MyApplication2/Login/entry"
+  },
+  "compileMode": "esmodule",
+  "projectRootPath": "/Users/zhuyn/Documents/DevEcoStudioProjects/harmonyApps/MyApplication2/Login",
+  "nodeModulesPath": "/Users/zhuyn/Documents/DevEcoStudioProjects/harmonyApps/MyApplication2/Login/entry/.preview/default/intermediates/loader_out/default/node_modules",
+  "moduleName": "entry",
+  "harNameOhmMap": {},
+  "packageManagerType": "ohpm",
+  "compileEntry": [],
+  "dynamicImportLibInfo": {},
+  "routerMap": [],
+  "hspResourcesMap": {},
+  "anBuildOutPut": "/Users/zhuyn/Documents/DevEcoStudioProjects/harmonyApps/MyApplication2/Login/entry/.preview/default/intermediates/loader_out/default/an/arm64-v8a",
+  "anBuildMode": "type"
+}
